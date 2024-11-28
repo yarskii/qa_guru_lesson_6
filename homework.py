@@ -126,6 +126,7 @@ def new_func(func, *args):
     format_name = name.replace('_', ' ').title()
     args_str = ', '.join(str(arg) for arg in args)
 
+    print(f"{format_name} [{args_str}]")
     return f"{format_name} [{args_str}]"
 
 
